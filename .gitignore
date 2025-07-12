@@ -1,0 +1,64 @@
+# R specific files
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+*.Rproj.user/
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.rds
+*.rda
+*.RData
+
+# Output files
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.html
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Cache directories
+.cache/
+__pycache__/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# R package files
+*.tar.gz
+*.zip
+
+# Project specific
+data/*.csv
+output/*.png
+output/*.pdf
+output/*.rds
+output/*.csv
+output/*.txt 

@@ -1,0 +1,34 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# R files
+*.R text eol=lf
+*.r text eol=lf
+
+# Documentation
+*.md text eol=lf
+*.txt text eol=lf
+
+# Data files (should be ignored, but just in case)
+*.csv text eol=lf
+*.tsv text eol=lf
+
+# Scripts
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Binary files
+*.rds binary
+*.rda binary
+*.RData binary
+*.png binary
+*.pdf binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.zip binary
+*.tar.gz binary
+
+# OS specific
+.DS_Store binary
+Thumbs.db binary 
